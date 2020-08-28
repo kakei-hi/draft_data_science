@@ -1,0 +1,9 @@
+Stanford データ可視化 講義スライド
+https://magrawala.github.io/cs448b-wi20/assets/slides/Lec01-purpose.pdf
+
+Stanford講義まとめQiita
+https://qiita.com/tomo_makes/items/4d69f347a5e49346df37?utm_source=Qiitaニュース&utm_campaign=76b9d98771-Qiita_newsletter_424_08_19_2020&utm_medium=email&utm_term=0_e44feaa081-76b9d98771-34215165
+
+R 標準データセット
+解析手法に適したデータセットは？
+https://qiita.com/wakuteka/items/95ac758070f6f4d89a96
