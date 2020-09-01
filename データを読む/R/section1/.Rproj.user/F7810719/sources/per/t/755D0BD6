@@ -1,18 +1,18 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1597913756013.000,
+    "created" : 1597903233177.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
     "hash" : "837552400",
-    "id" : "516ED50A",
+    "id" : "755D0BD6",
     "lastKnownWriteTime" : 1597909909,
-    "last_content_update" : 1597909909,
+    "last_content_update" : 1597909909982,
     "path" : "~/OneDrive - The University of Tokushima/cource/データサイエンス教科書/データを読む/R/section1/chihcken.R",
     "project_path" : "chihcken.R",
     "properties" : {
-        "cursorPosition" : "31,7",
+        "cursorPosition" : "30,22",
         "scrollLine" : "0",
         "tempName" : "Untitled1"
     },
