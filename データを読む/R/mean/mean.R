@@ -34,7 +34,7 @@ harmMean = function(x){
 }
 
 # hazurechi.vec = runif(n = 6, min = 25, max = 30)
-hazurechi.vec = c(55, 55, 57, 58, 59, 59)
+hazurechi.vec = c(55, 56, 57, 58, 59, 60)
 hist(hazurechi.vec)
 a0 = mean(hazurechi.vec)
 g0 = geoMean(hazurechi.vec)
