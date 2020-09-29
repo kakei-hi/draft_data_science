@@ -1,25 +1,25 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1600319751777.000,
+    "created" : 1601366741186.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
     "hash" : "3588204744",
-    "id" : "C0F6F105",
+    "id" : "2A75F174",
     "lastKnownWriteTime" : 1600333127,
-    "last_content_update" : 1600333127415,
+    "last_content_update" : 1600333127,
     "path" : "~/OneDrive - The University of Tokushima/cource/データサイエンス教科書/データを読む/R/mean/skewedDist.R",
     "project_path" : "skewedDist.R",
     "properties" : {
-        "cursorPosition" : "83,6",
-        "scrollLine" : "0",
+        "cursorPosition" : "95,6",
+        "scrollLine" : "82",
         "tempName" : "Untitled1"
     },
     "read_only" : false,
     "read_only_alternatives" : [
     ],
-    "relative_order" : 2,
+    "relative_order" : 1,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "r_source"
