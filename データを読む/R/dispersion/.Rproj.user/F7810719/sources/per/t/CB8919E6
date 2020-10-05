@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1601889751668.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3775792437",
+    "id" : "CB8919E6",
+    "lastKnownWriteTime" : 1601892500,
+    "last_content_update" : 1601892500672,
+    "path" : "~/OneDrive - The University of Tokushima/cource/データサイエンス教科書/データを読む/R/dispersion/correlation.R",
+    "project_path" : "correlation.R",
+    "properties" : {
+        "cursorPosition" : "108,20",
+        "scrollLine" : "94",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
