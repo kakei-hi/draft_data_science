@@ -26,7 +26,7 @@ size.n = 50
 mu = c(-0, 0)
 sig1 = 1
 sig2 = 1
-r = 0.9
+r = 0.95
 sig12 = r * sig1 * sig2
 val_cov.mat = matrix(c(sig1^2, sig12, sig12, sig2^2), nrow = 2)
 v = rmvnorm(n = size.n, mean = mu, sigma = val_cov.mat)
@@ -46,7 +46,7 @@ plot(g)
 mu = c(-0, 0)
 sig1 = 1
 sig2 = 1
-r = -0.9
+r = -0.95
 sig12 = r * sig1 * sig2
 val_cov.mat = matrix(c(sig1^2, sig12, sig12, sig2^2), nrow = 2)
 v = rmvnorm(n = size.n, mean = mu, sigma = val_cov.mat)
