@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1602399409562.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E7FFEADF",
+    "lastKnownWriteTime" : 140222092279811,
+    "last_content_update" : 1602399409562,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "E85EE117",
+        "caption" : "career.df",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=career.df&cache_key=E85EE117",
+        "displayedObservations" : 12,
+        "environment" : "",
+        "expression" : "career.df",
+        "object" : "career.df",
+        "preview" : 0,
+        "totalObservations" : 12,
+        "variables" : 3
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1602464316761.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2668970891",
+    "id" : "465761B9",
+    "lastKnownWriteTime" : 1601630609,
+    "last_content_update" : 1601630609,
+    "path" : "~/OneDrive - The University of Tokushima/cource/データサイエンス教科書/データを読む/R/dispersion/kurtosis.R",
+    "project_path" : "kurtosis.R",
+    "properties" : {
+        "cursorPosition" : "24,7",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

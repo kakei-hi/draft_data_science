@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1602396491893.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4276405402",
+    "id" : "5F2858C3",
+    "lastKnownWriteTime" : 1602403362,
+    "last_content_update" : 1602403362649,
+    "path" : "~/OneDrive - The University of Tokushima/cource/データサイエンス教科書/データを読む/R/visualization/barGraph.R",
+    "project_path" : "barGraph.R",
+    "properties" : {
+        "cursorPosition" : "39,9",
+        "scrollLine" : "37"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
