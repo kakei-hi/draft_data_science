@@ -8,6 +8,15 @@ if(!require(pckg, character.only = TRUE)){
   }
 }
 
+pckg = "scales"
+if(!require(pckg, character.only = TRUE)){
+  install.packages(pckg, type = "source")
+  if (!require(pckg, character.only = TRUE)){
+    str = paste0("could not install ", pckg)
+    stop(str)
+  }
+}
+
 par(family = "HiraKakuProN-W3")                     # plot() で日本語 on mac
 theme_set(theme_grey(base_family = "HiraKakuProN-W3")) # ggplot で日本語
 
@@ -40,5 +49,20 @@ raw.df = read_csv("../../hours_of_exercise.csv", skip = 2) %>%
 
 freq.vec = freq.fun(hours.df)
 
-hist(freq.vec, breaks = seq(0, 2400, 60))
-hist(freq.vec, breaks = seq(0, 2400,  300))
+quartz(file = "histogram.pdf", type = "pdf", width = 7, height = 7)
+
+ggplot(data = NULL, aes(x = freq.vec)) +
+  geom_histogram(aes(y = (after_stat(count) / sum(after_stat(count)))), 
+                 binwidth = 60, fill = "white", colour = "black") +
+  scale_y_continuous(labels = percent) +
+  labs(x = "1週間の運動時間（分）", y = "") -> g
+plot(g)
+
+ggplot(data = NULL, aes(x = freq.vec)) +
+  geom_histogram(aes(y = (after_stat(count) / sum(after_stat(count)))), 
+                 binwidth = 400, fill = "white", colour = "black") + 
+  scale_y_continuous(labels = percent) +
+  labs(x = "1週間の運動時間（分）", y = "") -> g
+plot(g)
+
+dev.off()

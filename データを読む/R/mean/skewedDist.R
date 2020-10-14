@@ -83,7 +83,7 @@ dev.off()
 
 # 正規分布
 sym_mean = (min(val_saving.vec) + max(val_saving.vec)) / 2
-sym_sd = sym_mean / 3
+sym_sd = sym_mean / 3.5
 symDist.vec = rnorm(n = sum(num_of_households),
                     mean = sym_mean,
                     sd = sym_sd)
