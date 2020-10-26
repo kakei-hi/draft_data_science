@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1603348824259.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "854096752",
+    "id" : "FAA316EE",
+    "lastKnownWriteTime" : 1603183079,
+    "last_content_update" : 1603183079,
+    "path" : "~/OneDrive - The University of Tokushima/cource/データサイエンス教科書/データを読む/R/visualization/lineChart_UKgas.R",
+    "project_path" : "lineChart_UKgas.R",
+    "properties" : {
+        "cursorPosition" : "17,0",
+        "scrollLine" : "7",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

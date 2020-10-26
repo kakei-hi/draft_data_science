@@ -43,28 +43,41 @@ career.df = read_csv("career.csv") %>%
 #   ggplot(aes(x = faculty, y = Freq, fill = career)) +
 #   geom_bar(stat = "identity", position = "dodge")
 
+quartz(file = "barChart.pdf", type = "pdf", width = 6, height = 5)
+
 # 積み上げグラフ
 career.df %>% 
   ggplot(aes(x = faculty, y = Freq, fill = career)) +
-  geom_bar(stat = "identity") 
+  geom_bar(stat = "identity", alpha = 0.5) +
+  scale_fill_manual(values = c("#FF00FF", "#00FF77", "#00C7FF")) -> g
+plot(g)
 
-# 積み上げグラフ x軸並べ替え 
+# 積み上げグラフ x軸，積み上げ順並べ替え 
 career.df %>% 
+  transform(faculty = factor(faculty, levels = c("理学部", "工学部", "法学部", "文学部"))) %>%
+  transform(career = factor(career, levels = c("不明", "就職", "進学"))) %>%
   ggplot(aes(x = faculty, y = Freq, fill = career)) +
-  geom_bar(stat = "identity") + 
-  scale_x_discrete(limits = c("理学部", "工学部", "法学部", "文学部"))  
+  geom_bar(stat = "identity", alpha = 0.5) + 
+  scale_fill_manual(values = c("#00C7FF", "#FF00FF", "#00FF77")) -> g
+#  scale_x_discrete(limits = c("理学部", "工学部", "法学部", "文学部"))  -> g
+plot(g)
 
 # 積み上げグラフ 割合 
 # position = "fill": 棒を積み重ね，各棒の高さを揃える ← 相対的な割合
 career.df %>% 
+  transform(faculty = factor(faculty, levels = c("理学部", "工学部", "法学部", "文学部"))) %>%
+  transform(career = factor(career, levels = c("不明", "就職", "進学"))) %>%
   ggplot(aes(x = faculty, y = Freq, fill = career)) +
-  geom_bar(stat = "identity", position = "fill") + 
-  scale_y_continuous(labels = percent) +
-  scale_x_discrete(limits = c("理学部", "工学部", "法学部", "文学部"))  
+  geom_bar(stat = "identity", position = "fill", alpha = 0.5) + 
+  scale_fill_manual(values = c("#00C7FF", "#FF00FF", "#00FF77")) +
+  scale_y_continuous(labels = percent) -> g
+plot(g)
 
-# 集合グラフ 
-career.df %>% 
-  ggplot(aes(x = faculty, y = Freq, fill = career)) +
-  geom_bar(stat = "identity", position = "dodge") + 
-  scale_x_discrete(limits = c("理学部", "工学部", "法学部", "文学部"))
+dev.off()
+
+# # 集合グラフ 
+# career.df %>% 
+#   ggplot(aes(x = faculty, y = Freq, fill = career)) +
+#   geom_bar(stat = "identity", position = "dodge", alpha = 0.5) + 
+#   scale_x_discrete(limits = c("理学部", "工学部", "法学部", "文学部"))
 

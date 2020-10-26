@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "4276405402",
+    "hash" : "579407652",
     "id" : "5F2858C3",
-    "lastKnownWriteTime" : 1602403362,
-    "last_content_update" : 1602403362649,
+    "lastKnownWriteTime" : 1602481471,
+    "last_content_update" : 1602481471,
     "path" : "~/OneDrive - The University of Tokushima/cource/データサイエンス教科書/データを読む/R/visualization/barGraph.R",
     "project_path" : "barGraph.R",
     "properties" : {
-        "cursorPosition" : "39,9",
+        "cursorPosition" : "42,26",
         "scrollLine" : "37"
     },
     "read_only" : false,

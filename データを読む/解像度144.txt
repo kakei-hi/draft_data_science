@@ -1,0 +1,17 @@
+representative
+ データ整理
+ 順序尺度
+ 気温color
+ 身長color
+ データ種類表
+ 尺度変換
+ saving
+ アンケート回答
+ アンケート回答2
+ 代表値-尺度
+ 
+dispersion
+ contingency_sample
+ correlation_tbl
+ height_data
+ q
