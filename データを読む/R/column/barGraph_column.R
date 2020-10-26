@@ -59,7 +59,7 @@ Titanicp %>%
   drop_na(age) %>%
   ggplot(aes(x = age)) +
   geom_histogram(binwidth = 10, fill = "white", colour = "black") +
-  facet_grid(pclass ~.)
+  facet_grid(pclass ~ .)
 
 # 散布図 & 折れ線グラフ
 qtr = as.numeric(time(UKgas))
